@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiYXNhZG11c3RhZmEiLCJhIjoiY2x6azU4a25nMHh2ZzJrczFwcXBrbjVycCJ9.Jxz9MQlQBIBBE4-FaRHA0w';
+mapboxgl.accessToken = 'pk.eyJ1IjoidGFsaGF3YXFxYXMxNCIsImEiOiJjbHBreHhscWEwMWU4MnFyenU3ODdmeTdsIn0.8IlEgMNGcbx806t363hDJg';
 
 const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR2hR05_jufA1yO5yTBVlsnxxDnagXubgCyqHXmhlZZVh9MfxZ2l7dtDKRDHKKB7kCpfgsAcD7nYRop/pub?gid=0&single=true&output=csv';
 let map;
@@ -45,7 +45,7 @@ function parseCSVData(data) {
 function createMap() {
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/asadmustafa/clzk5agc000ls01plat5x78e0',
+        style: 'mapbox://styles/talhawaqqas14/cm7m8w40a000x01qu43mdcrln',
         center: [0, 25],
         zoom: 1.5
     });
